@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marvin Zuniga - Links</title>
+    <link rel="stylesheet" href="/styles/index.css">
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      VANTA.BIRDS({
+        el: "#vanta",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: true,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        wingSpan: 33.00,
+        separation: 41.00,
+        alignment: 42.00,
+        cohesion: 49.00,
+        quantity: 3.00,
+        backgroundAlpha: 0.0
+      })
+
+      setTimeout (() => {
+        const main = document.querySelector('main')
+      main.style.opacity = 1
+      main.style.filter = 'blur(0px)'
+      }, 1000)
+    })   
+    </script>
+  </head>
+  <body>
+    <!--
+    <video autoplay muted loop playsinline>
+      <source src="./images/space.m4v" type="video/mp4; codecs=hvc1">
+      <source src="./images/space.webm" type="video/webm; codecs=vp9">
+    </video>
+    -->  
+    <div id="vanta"></div>
+    <main>
+      <header>
+        <img src="./images/marvin.png" alt="marvin" width="225px" />
+        <h1>@MarvinNica19</h1>
+      </header>
+      <ul>
+        <li>
+          <a
+            href="https://nodejs-firtswebapp.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/images/homeicon.svg" alt="home" width="20">
+            Oficial Website
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/MarvinNica19"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/images/twitter.svg" alt="twitter" width="20">
+            Twitter
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/MarvinZun19"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/images/github.svg" alt="github" width="20">
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/marvinzun19/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/images/instagram.svg" alt="instagram" width="20">
+            instagram
+          </a>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
