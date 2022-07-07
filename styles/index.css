@@ -103,7 +103,13 @@ ul > li > a {
   gap: 0.5em;
 }
 
+ul > li:hover {
+  background-color: #F37878;
+}
+
+
 a {
   color: black;
   text-decoration: none;
 }
+
